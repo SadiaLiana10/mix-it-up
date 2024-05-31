@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mix it up</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <section id="btn">
+        <div class="container">
+          
+                <div class="buttons row">
+                    <button class="btn1" type="button" data-filter="all">All</button>
+                    <button type="button" data-filter=".ysl">Saint Laurent</button>
+                    <button type="button" data-filter=".givenchy">Givenchy</button>
+                    <button type="button" data-filter=".prada">Prada</button>
+                </div>           
+
+                <div class="contain row">
+                    <div class="mix ysl" data-order="1">
+                        <img src="./ysl.jpg" alt="">
+                    </div>
+                    <div class="mix ysl" data-order="2">
+                        <img src ="./ysl2.jpg" alt="">
+                    </div>
+                    <div class="mix prada" data-order="3">
+                        <img src="./prada.jpg" alt="">
+                    </div>
+                    <div class="mix prada" data-order="4">
+                        <img src ="./prada2.jpg" alt="">
+                    </div>
+                    <div class="mix prada" data-order="4">
+                        <img src ="./prada3.jpg" alt="">
+                    </div>
+                    <div class="mix givenchy" data-order="4">
+                        <img src ="./givenchy.jpg" alt="">
+                    </div>
+                    <div class="mix givenchy" data-order="4">
+                        <img src ="./givenchy3.jpg" alt="">
+                    </div>
+                    <div class="mix givenchy" data-order="4">
+                        <img src="./givenchy1.jpg" alt="">
+                    </div>
+                </div>
+
+           
+
+        </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.1/mixitup.min.js"></script>
+    <script src="./app.js"></script>
+</body>
+</html>
